@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.deepPurple[400],
         body: SafeArea(
             child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -30,27 +30,27 @@ class MyApp extends StatelessWidget {
               'DEVELOPER',
               style: TextStyle(
                   fontFamily: 'Source Sans Pro',
-                  color: Colors.teal.shade100,
+                  color: Colors.deepPurple[100],
                   fontSize: 20.0,
                   letterSpacing: 2.4,
                   fontWeight: FontWeight.bold),
             ),
             SizedBox(
-                height: 20.0,
+                height: 50.0,
                 width: 150.0,
-                child: Divider(thickness: 2.0, color: Colors.teal[100])),
+                child: Divider(thickness: 2.0, color: Colors.deepPurple[100])),
             Card(
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                 child: ListTile(
                     leading: Icon(
                       Icons.phone,
-                      color: Colors.teal[900],
+                      color: Colors.black,
                       size: 20.0,
                     ),
                     title: Text(
                       '+44 999 388 30',
                       style: TextStyle(
-                          color: Colors.teal[900],
+                          color: Colors.black,
                           fontSize: 20.0,
                           fontFamily: 'Source Sans Pro'),
                     ))),
@@ -60,14 +60,14 @@ class MyApp extends StatelessWidget {
               child: ListTile(
                   leading: Icon(
                     Icons.outgoing_mail,
-                    color: Colors.teal[900],
+                    color: Colors.black,
                     size: 20.0,
                   ),
                   title: Text(
                     'mail.maily.com',
                     style: TextStyle(
                         fontFamily: 'Source Sans Pro',
-                        color: Colors.teal[900],
+                        color: Colors.black,
                         fontSize: 20.0),
                   )),
             )
